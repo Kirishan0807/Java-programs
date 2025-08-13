@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Tony {
+    int rollno;
+    String name;
+    static String collegename="Mount";
+    void display(int a,String name){
+        System.out.println(a+" "+name+" "+collegename);
+    }
+    public static void main(String[] args) {
+        Tony stark=new Tony();
+        Tony.collegename="Mount Zion";
+        stark.display(1,"Tony Stark");
+        stark.display(02,"Steve Rogers");
+        stark.display(03,"Thor Odinson");
+        stark.display(04,"Bruce Banner");
+        stark.display(05,"Clint Barton");
+        stark.display(06,"Natalie Rumanoff");
+    }
+}
