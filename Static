@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Tony {
+    int rollno=44;
+    String name="Lewis Hamilton";
+    static String collegename="Mount";
+    
+    void display(int a,String name){
+        System.out.println(a+" "+name+" "+collegename);
+    }
+    public static void show(int a,String name){
+        Tony.collegename="Mount zion";
+        System.out.println(a+" "+name+" "+collegename);
+    }
+        public static void main(String[] args) {
+        Tony.show(44,"Lewis Hamilton");
+        Tony obj=new Tony();
+        obj.display(33,"Max Verstappen");
+    }
+}
