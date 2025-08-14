@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class stark {
+    public static void main(String args[]){
+        String str="Tony stark";
+        String str2="Iron Man";
+        String str3=new String("Tony stark");
+        System.out.println(str==str2);
+        System.out.println(str==str3);
+        System.out.println(str.equals(str3));
+        System.out.println(str.length());
+        String word[]=str.split(" ");
+        for (String var:word)
+        {
+            System.out.println(var);
+        }
+        System.out.println(str.substring(3,7));
+        System.out.println(str.contains("Tony"));
+        System.out.println(str.endsWith("Tony"));
+        System.out.println(str.equalsIgnoreCase(str3));
+        System.out.println(str.charAt(4));
+        System.out.println(str.concat(" Billianore"));
+    }
+}
