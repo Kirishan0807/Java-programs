@@ -1,0 +1,16 @@
+class bird
+{
+    bird(){
+        System.out.println("singing");
+    }}
+    class dog extends bird{
+        dog(){
+            System.out.println("boww");
+        }
+    }
+public class Main
+{
+    public static void main(String[]args){
+    dog obj=new dog();
+}
+}
